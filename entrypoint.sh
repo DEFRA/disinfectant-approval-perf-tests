@@ -14,7 +14,7 @@ JM_LOGS=${JM_HOME}/logs
 
 mkdir -p ${JM_REPORTS} ${JM_LOGS}
 
-SCENARIOFILE=${JM_SCENARIOS}/DefraApprovedDisinfectants_LoadTest_V01.jmx
+SCENARIOFILE=${JM_SCENARIOS}/DefraApprovedDisinfectants_SoakTest_V01.jmx
 REPORTFILE=${NOW}-perftest-${TEST_SCENARIO}-report.csv
 LOGFILE=${JM_LOGS}/perftest-${TEST_SCENARIO}.log
 
